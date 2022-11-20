@@ -206,14 +206,34 @@ font-weight: bold;
 
 .movie-list{
     list-style: none;
+    height: 300px;
     padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
 }
 
 .movie-item{
     position: relative;
 }
+
+
+.movie-item:hover .movie-item-title,
+.movie-item:hover .movie-item-buttons {
+opacity: 1;
+}
+
+.movie-item:hover .movie-item-img {
+   transform: scale(1.2); 
+   margin: 0 30px;
+   opacity: 0.5;
+ 
+}
 .movie-item-img{
     width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s all ease;
 }
 .movie-item-title{
     background-color: rgba(40, 40, 40, 0.4);
@@ -223,19 +243,50 @@ font-weight: bold;
     position: absolute;
     top: 10%;
     left: 50px;
+    opacity: 0;
+    transition: 1s all ease ;
 
 }
 
 .movie-item-buttons{
     background-color: rgba(40, 40, 40, 0.4);
-    padding: 0 10px;
+    padding: 10px;
     font-weight: bold;
     position: absolute;
     bottom: 10%;
     left: 50px;
     display: flex;
     column-gap: 20px;
+    transition: 1s all ease ;
+}
+.movie-item-buttons i{
+    cursor: pointer;
+    opacity:0.5 ;
+    font-size: 20px;
+    transition: .5s all ease;
+
 
 }
+
+.movie-item-buttons i:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*! movie list en*/
