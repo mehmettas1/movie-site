@@ -45,6 +45,7 @@ body{
     display: flex;
     list-style: none;
     column-gap: 30px;
+    padding: 0;
 }
 
 .menu-list-item{
@@ -201,6 +202,40 @@ font-weight: bold;
 /*! movie list startt*/
 .movie-list-container{
     margin-left: 70px;
+}
+
+.movie-list{
+    list-style: none;
+    padding: 0;
+}
+
+.movie-item{
+    position: relative;
+}
+.movie-item-img{
+    width: 270px;
+}
+.movie-item-title{
+    background-color: rgba(40, 40, 40, 0.4);
+    padding: 0 10px;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+
+}
+
+.movie-item-buttons{
+    background-color: rgba(40, 40, 40, 0.4);
+    padding: 0 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+    left: 50px;
+    display: flex;
+    column-gap: 20px;
+
 }
 
 /*! movie list en*/
