@@ -55,15 +55,24 @@ body{
     column-gap: 20px;
 }
 
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+}
+
 .profile-picture{
     width: 32px;
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
+    line-height: 1;
 }
 .toggle{
     width: 40px;
     background-color:white ;
+    position: relative;
     height: 20px;
     border-radius: 20px;
     display: flex;
@@ -72,6 +81,15 @@ body{
 }
 .toggle-icon{
     color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
 }
 
 
