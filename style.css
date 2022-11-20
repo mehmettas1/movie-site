@@ -13,6 +13,11 @@ body{
     font-family: 'Electrolize', sans-serif;
     height: 200vh;
 }
+.container {
+    background-color: black;
+    color: white;
+}
+
 
 /*!base css end*/
 
@@ -123,6 +128,8 @@ top: 0;
 }
 /*!sidebar css end*/
 
+
+
 /*!featured css start*/
 .content-wrapper{
     margin-left: 50px;
@@ -168,3 +175,32 @@ font-weight: bold;
 }
 
 /*!featured css end*/
+
+
+
+/*!filter css start*/
+.movie-list-filter{
+    margin:20px  0 20px 50px;
+    padding: 20px;
+}
+.movie-list-filter select{
+    background-color: #000;
+    color: white;
+    padding: 7px 0;
+    width: 125px;
+}
+
+
+
+
+
+/*!filter css end*/
+
+
+
+/*! movie list startt*/
+.movie-list-container{
+    margin-left: 70px;
+}
+
+/*! movie list en*/
