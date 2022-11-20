@@ -93,10 +93,29 @@ body{
 }
 
 
+
+
+
+
+/*!side css start*/
 .sidebar{
 background-color:#000 ;
 color: white;
 height: 100%;
 width: 50px;
-  
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+row-gap: 40px;
+align-items: center;
+position: fixed;
+top: 0;
 }
+
+
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*!sidebar css end*/
