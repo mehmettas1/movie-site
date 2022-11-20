@@ -49,6 +49,32 @@ body{
     font-weight: bold;
 }
 
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.toggle{
+    width: 40px;
+    background-color:white ;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+
+
 .sidebar{
 background-color:#000 ;
 color: white;
