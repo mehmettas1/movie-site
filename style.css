@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Overpass:ital,wght@0,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /*!base css start*/
 
 
@@ -14,7 +17,8 @@ body{
     background-color:#000 ;
     height: 60px;
     color: white;
-
+    position: sticky;
+    top: 0;
 
 }
 .navbar-wrapper{
@@ -24,9 +28,25 @@ body{
     height: 100%;
     padding: 0 50px;
 }
+.logo{
+    color: rgb(255, 70, 70);
+    font-family: 'Electrolize', sans-serif;
+    font-size: 30px;
+}
 .menu-list{
     display: flex;
     list-style: none;
+    column-gap: 30px;
+}
+
+.menu-list-item{
+    cursor: pointer;
+}
+.menu-list-item:hover{
+    font-weight: bold;
+}
+.menu-list-item.active{
+    font-weight: bold;
 }
 
 .sidebar{
