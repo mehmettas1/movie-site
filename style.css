@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Electrolize', sans-serif;
-    height: 200vh;
+
 }
 .container {
     background-color: black;
@@ -27,6 +27,7 @@ body{
     color: white;
     position: sticky;
     top: 0;
+    z-index: 1;
 
 }
 .navbar-wrapper{
@@ -212,7 +213,9 @@ font-weight: bold;
     align-items: center;
     column-gap: 30px;
 }
-
+.movie-list-wrapper{
+    overflow: hidden;
+}
 .movie-item{
     position: relative;
 }
@@ -290,3 +293,7 @@ opacity: 1;
 
 
 /*! movie list en*/
+
+
+
+1,44 dk kldim
