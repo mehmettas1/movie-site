@@ -216,6 +216,7 @@ font-weight: bold;
 }
 .movie-list-wrapper{
     overflow: hidden;
+    position: relative;
 }
 .movie-item{
     position: relative;
@@ -276,7 +277,20 @@ opacity: 1;
     opacity: 1;
 }
 
-
+.arrow {
+    width: 100px;
+    display: flex;
+    font-size: 120px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    opacity: .5;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+.arrow:hover{
+    opacity: 1;
+}
 
 
 
