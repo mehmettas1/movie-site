@@ -314,33 +314,33 @@ opacity: 1;
 
 
 /*!DARK MODE START */
-.container{
+.container.active{
     background-color: white;
 }
 
-.navbar{
+.navbar.active{
     background-color: white;
     color: black;
 }
 
-.sidebar{
+.sidebar.active{
     background-color: white;
 }
 
-.sidebar i{
+.sidebar i.active{
     color: black;
 }
 
-.toggle {
+.toggle.active {
     background-color: black;
 }
 
-.toggle-ball {
+.toggle-ball.active {
     background-color: white;
     transform: translateX(-20px);
 }
 
-.movie-list-filter select{
+.movie-list-filter select.active{
     background-color: white;
     color: black;
 }

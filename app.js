@@ -17,3 +17,12 @@ arrows.forEach((arrow, i) => {
     }
   });
 });
+
+
+/*DARK MODE*/
+
+
+const ball = document.querySelector(".toggle-ball");
+ball.addEventListener("click",function(){
+    
+})
