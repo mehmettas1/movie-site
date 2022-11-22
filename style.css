@@ -313,4 +313,36 @@ opacity: 1;
 /*! movie list en*/
 
 
+/*!DARK MODE START */
+.container{
+    background-color: white;
+}
 
+.navbar{
+    background-color: white;
+    color: black;
+}
+
+.sidebar{
+    background-color: white;
+}
+
+.sidebar i{
+    color: black;
+}
+
+.toggle {
+    background-color: black;
+}
+
+.toggle-ball {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+.movie-list-filter select{
+    background-color: white;
+    color: black;
+}
+
+/*!DARK MODE END */
