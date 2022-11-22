@@ -100,6 +100,7 @@ body{
     cursor: pointer;
     position: absolute;
     right: 1px;
+    transition: .5s ease all;
 }
 
 
@@ -330,7 +331,9 @@ opacity: 1;
 .sidebar i.active{
     color: black;
 }
-
+.movie-list-title.active{
+    color: black;
+}
 .toggle.active {
     background-color: black;
 }
@@ -346,3 +349,11 @@ opacity: 1;
 }
 
 /*!DARK MODE END */
+
+
+
+/*!responsive */
+
+@media only screen and{max-width: 800px;
+    
+}
