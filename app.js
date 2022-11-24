@@ -14,6 +14,7 @@ arrows.forEach((arrow, i) => {
       }px)`;
     } else {
       movieLists[i].style.transform = "translateX(0)";
+      clickCounter=0;
     }
   });
 });
