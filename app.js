@@ -3,6 +3,7 @@ const movieLists = document.querySelectorAll(".movie-list");
 console.log(movieLists);
 
 arrows.forEach((arrow, i) => {
+  const widthRatio =Math.floor(window.innerWidth/300)
   let clickCounter = 0;
   const imageItem = movieLists[i].querySelectorAll("img").length;
 
