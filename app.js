@@ -9,7 +9,7 @@ arrows.forEach((arrow, i) => {
 
   arrow.addEventListener("click", function () {
     clickCounter++;
-    if (imageItem - (4 + clickCounter) >= 0) {
+    if (imageItem - (4 + clickCounter) +(4-widthRatio) >= 0) {
       movieLists[i].style.transform = `translateX(${
         movieLists[i].computedStyleMap().get("transform")[0].x.value - 300
       }px)`;
